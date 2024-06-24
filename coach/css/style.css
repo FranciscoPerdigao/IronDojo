@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic:wdth@75..100&display=swap');
+
+body{
+    font-family: "League Gothic", sans-serif;
+    background-color: #14141A;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 100px;
+    background-color: #14141A; 
+    z-index: 1;
+}
+
+header p{
+    color: #fff;
+    font-size: 1.3rem;
+    padding-left: 40px;
+}
+
+header img{
+    width: 4%;
+    padding-left: 25px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin-left: 3rem;
+    padding-left: 100px;
+}
+
+nav a:hover{
+    opacity: 0.5;
+}
+
+.profile{
+    color: #fff;
+    padding-top: 150px;
+    background-color: #0e0e11;
+    padding-left: 150px;
+    font-size: 1.3rem;
+}
+
+.profile img{
+    width: 10%;
+}
+
+.profile p {
+    margin-top:-10px;
+}
+
+.patrocinador img{
+    float:right;
+    width: 40%;
+    margin-top: -350px;
+    margin-right: 500px;
+}
+
+.patrocinador img:hover{
+    opacity: 0.5;
+}
+
+.botoes a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    border-radius: 10px;
+    padding:5px 25px ;
+    margin-top: 50px;
+}
+
+.botoes a:hover{
+    opacity: 0.5;
+}
+
+.botao1{
+    background-color: #fff;
+    color: #000;
+}
+
+.botao2 {
+    color: #fff;
+    background-color: #282834;
+    margin-left: 25px;
+}
+
+.contactos  {
+    padding-top: 25px ;
+    display: flex;
+    gap: 25px;
+}
+
+.contactos img{
+    width: 50px;
+}
+
+.contactos a:hover{
+    opacity: 0.5;
+}
+
+.servicos{
+    display: flex;
+    flex-flow: column;
+    background-color: #0e0e11;
+    align-items: center;
+    padding-top: 75px;
+    padding-bottom: 20px;
+}
+
+.servicos a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.servicos a:hover{
+    opacity: 0.5;
+}
+
+.fila{
+    display: flex;
+    flex-flow: row;
+    gap: 75px;
+    margin-left: 50px;
+}
+
+.fila img{
+   width: 100%;
+}
+
+.lesson{
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+
+
+footer{
+    background-color: #14141A;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer a:hover{
+    opacity: 0.5;
+}
+
+.product{
+    list-style-type: none;
+    padding:0;
+    float: right;
+    padding-right: 100px;
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+.company{
+list-style-type: none;
+padding:0;
+float: right;
+padding-right: 100px;
+color: #fff;
+font-size: 1.7rem;
+gap:25px;
+}
+
+.footer p{
+float: right;
+padding-right: 100px;
+color: #fff;
+font-size: 1.7rem;
+}
+
+.discord a{
+    color: #000;
+    text-decoration: none;
+    background-color: #fcd23e;
+    border-radius: 10px;
+    margin-left: 130px;
+    padding: 5px 5px;
+    font-size: 1.3rem;
+}
+
+.discord img{
+    margin-left: 20px;
+    width: 3%;
+    padding-left: 120px;
+    margin-top: 50px;
+}
+
+.socials{
+margin-top: 50px;
+display: flex;
+gap: 15px;
+margin-left:100px;
+width: 50%;
+}
+
+.footer h2{
+    color:#fff;
+    font-weight: normal;
+    padding-top:25px;
+    display:flex;
+}

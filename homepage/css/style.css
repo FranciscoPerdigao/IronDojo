@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic:wdth@75..100&display=swap');
+
+body{
+    font-family: "League Gothic", sans-serif;
+    background-color: #0e0e11;
+}
+
+
+.header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 100px;
+    background-color: #14141A; 
+    z-index: 1;
+}
+
+header p{
+    color: #fff;
+    font-size: 1.5rem;
+    padding-left: 150px;
+}
+
+header img{
+    width: 4%;
+    padding-left: 25px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin-left: 36px;
+    padding-left: 100px;
+}
+
+nav a:hover{
+    opacity: 0.5;
+}
+
+.container{
+    background: url(/homepage/img/bannerleft.png) left top no-repeat,url(/homepage/img/bannerright.png) right top no-repeat;
+}
+
+
+.logo{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.logo img{
+ width: 10%;
+ display: block;
+margin-left: auto;
+ margin-right: auto;
+}
+
+.logo h2{
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: normal;
+    line-height: 10px;
+}
+
+.servicos{
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.servicos a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.servicos a:hover{
+    opacity: 0.5;
+}
+
+.cartao{
+    padding-top: 50px;
+    padding: 30px;
+    width: 300px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0px 15px 0px 15px;
+    font-size: 1.3rem;
+}
+
+.servicos img{
+    width: 100%;
+}
+
+.choose{
+color:#fff;
+text-align: center;
+padding-top: 15px;
+padding-bottom: 15px;
+font-size: 1.5rem;
+}
+
+.formulario{
+    padding-bottom: 20px;
+}
+
+.formulario #search{
+    display: block;
+    height: 30px;
+    margin: 0 auto;
+    width: 550px;
+}
+
+.personagens {
+display: flex;
+flex-flow: column;
+align-items: center;
+padding-top: 100px;
+padding-bottom: 20px;
+}
+
+.personagens a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.personagens a:hover{
+    opacity: 0.5;
+}
+
+.tabela{
+display: flex;   
+text-align: center;
+align-items: center;
+gap:60px;
+}
+
+.fila{
+display: block;
+padding-top: 20px;
+}
+
+
+.fila img{
+width: 250px;
+height: 600px;
+}
+.nome {
+color: #fff;  
+font-size: 1.3rem;
+margin-top: 10px;
+}
+
+.footer{
+    background-color: #14141A;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer a:hover{
+    opacity: 0.5;
+}
+
+.product{
+    list-style-type: none;
+    padding:0;
+    float: right;
+    padding-right: 100px;
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+.company{
+list-style-type: none;
+padding:0;
+float: right;
+padding-right: 100px;
+color: #fff;
+font-size: 1.7rem;
+}
+
+.footer p{
+float: right;
+padding-right: 100px;
+color: #fff;
+font-size: 1.7rem;
+}
+
+.discord a{
+    color: #000;
+    text-decoration: none;
+    background-color: #fcd23e;
+    border-radius: 10px;
+    margin-left: 130px;
+    padding: 5px 5px;
+    font-size: 1.3rem;
+}
+
+.discord img{
+    margin-left: 20px;
+    width: 3%;
+    padding-left: 120px;
+    margin-top: 50px;
+}
+
+.socials{
+margin-top: 50px;
+display: flex;
+gap: 15px;
+margin-left:100px;
+width: 50%;
+}
+
+.footer h2{
+    color:#fff;
+    font-weight: normal;
+    padding-top:25px;
+    display:flex;
+}
+
+
+
