@@ -41,7 +41,7 @@ nav a:hover{
 }
 
 .container{
-    background: url(/homepage/img/bannerleft.png) left top no-repeat,url(/homepage/img/bannerright.png) right top no-repeat;
+    background: url(img/bannerleft.png) left top no-repeat,url(img/bannerright.png) right top no-repeat;
 }
 
 
